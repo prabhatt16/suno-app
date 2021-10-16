@@ -1,0 +1,49 @@
+.trendingPageArea {
+  margin-left: 230px;
+  margin-top: -100px;
+  background-color: white;
+  /* height: max-content; */
+  padding-top: 60px;
+  padding-right: 5px;
+}
+.trendingCards {
+  padding: 0px 40px 20px 30px;
+  display: grid;
+  margin-bottom: 0%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 0px;
+  /* place-self: start;
+  place-content: start;
+  place-items: start; */
+}
+.trendingHeading {
+  text-align: start;
+  padding: 0px 12px 12px 12px;
+}
+@media screen and (max-width: 800px) {
+  .trendingPageArea {
+    margin-left: 0px;
+    margin-top: 40px;
+    background-color: white;
+    /* height: 100vh; */
+  }
+  .trendingHeading {
+    text-align: center;
+  }
+  /* .trendingCards {
+    padding-top: 40px;
+    margin-left: 0px;
+    margin-bottom: 8px;
+    padding: 0px 20px 8px 0px;
+  } */
+}
+
+@media screen and (max-width: 500px) {
+  .trendingCards {
+    /* grid-template-columns: repeat(auto-fit, minmax(100%, fr));
+    grid-gap: 0px; */
+    place-self: center;
+    place-content: center;
+    place-items: center;
+  }
+}

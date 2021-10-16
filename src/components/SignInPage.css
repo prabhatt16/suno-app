@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.signInPage {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+/* body {
+  background-color: #e5e5e5;
+} */
+
+.leftContainer {
+  background-color: #321843;
+  /* max-width: 1050px; */
+  height: 100%;
+  width: 70%;
+  left: 0;
+  padding-bottom: 20px;
+}
+
+.leftContainer > h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.leftContainer > h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.logoImage {
+  display: block;
+  margin: 0 auto;
+  max-width: 135px;
+  max-height: 87px;
+  /* width: 100%; */
+  margin-bottom: 20px;
+  margin-top: 10%;
+}
+
+.signUpImage {
+  display: block;
+  margin: 0 auto;
+  max-width: 570px;
+  padding: 14px;
+  width: 100%;
+}
+
+.rightContainer {
+  max-width: 559px;
+  width: 40%;
+  margin-left: -500px;
+  background-color: #fafafa;
+  border-radius: 40px;
+}
+
+.rightContainer > h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  align-items: center;
+  text-align: center;
+  color: #7905f2;
+  margin-top: 18%;
+}
+.rightContainer > h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+.rightContainer > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+.loginBtn {
+  /* max-width: 380px; */
+  height: 55px;
+  width: 80%;
+  background: #7905f2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+.loginBtn > h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 12px;
+}
+.loginBtn > img {
+  width: 32.73px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 1030px) {
+  .leftContainer {
+    background-color: #321843;
+    max-width: 1050px;
+    height: 80%;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .leftContainer > h3 {
+    font-size: 28px;
+  }
+
+  .leftContainer > h4 {
+    font-size: 18px;
+  }
+  .logoImage {
+    display: block;
+    margin: 0 auto;
+    max-width: 135px;
+    max-height: 87px;
+    margin-bottom: 8px;
+    margin-top: 3%;
+  }
+
+  .signUpImage {
+    /* max-width: 300px; */
+    /* height: 200px; */
+    width: 100%;
+    margin-bottom: 20%;
+  }
+
+  .rightContainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: -20%;
+  }
+
+  .rightContainer > h1 {
+    font-size: 30px;
+    margin-top: 10%;
+  }
+  .rightContainer > h2 {
+    font-size: 20px;
+  }
+  .rightContainer > p {
+    font-size: 16px;
+  }
+  .loginBtn {
+    max-width: 300px;
+    height: 50px;
+    background: #7905f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .loginBtn > h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 12px;
+  }
+}

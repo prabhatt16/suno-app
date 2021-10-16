@@ -1,0 +1,39 @@
+.newAugeosArea {
+  margin-left: 230px;
+  margin-top: -100px;
+  background-color: white;
+  padding-top: 50px;
+  height: 100vh;
+}
+.newAugeosCard {
+  display: block;
+  justify-content: start;
+  align-items: start;
+  padding-left: 40px;
+}
+.emailField {
+  padding: 6px;
+  font-family: "Poppins";
+  margin-left: 8px;
+  max-width: 250px;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 800px) {
+  .newAugeosArea {
+    padding-top: 50px;
+  }
+  .newAugeosArea {
+    margin-left: 0px;
+    flex: 0;
+    flex-grow: 0;
+    margin-top: 30px;
+  }
+  .newAugeosCard {
+    padding-top: 0px;
+    margin-left: 0px;
+    padding: 8px 20px 0px 15px;
+  }
+}

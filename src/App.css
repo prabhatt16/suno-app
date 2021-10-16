@@ -1,0 +1,35 @@
+/* 
+body {
+  background: #323232;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.App>h1 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.app-container {
+  width: 600px;
+  padding: 0 10px;
+  background-color: #272727;
+  padding: 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.479);
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+body {
+  background-color: white;
+}
