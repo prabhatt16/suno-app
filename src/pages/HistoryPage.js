@@ -48,7 +48,7 @@ function HistoryPage() {
         <p>{headerData?.sub_title}</p>
       </div>
       <div
-        className="categoryAudioCards"
+        className="categoryAudioCards"  
         style={{ padding: "0px 20px 10px 20px" }}
       >
         {augeos &&

@@ -37,10 +37,10 @@ function Discover() {
     <div className="discoverPage">
       <div className="discoverContainer">
         <div className="welcomeContainer">
-          <h2>{headerData?.title}</h2>
-          <p>{headerData?.sub_title}</p>
+          {/* <h2>{headerData?.title}</h2>
+          <p>{headerData?.sub_title}</p> */}
         </div>
-        <br />
+        {/* <br /> */}
         {sequence &&
           sequence.map(
             ({ id, data: { row_type, category_set, heading, type } }) => {

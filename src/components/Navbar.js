@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 import { auth, db } from "../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import Avatar from "@mui/material/Avatar";
-import logo from "../assets/logo.png";
+import logo from "../assets/sunologo.png";
 import searchImg from "../assets/Vector.png";
 
 import { AppBar, IconButton, Menu, MenuItem, Toolbar } from "@mui/material";
@@ -115,7 +115,7 @@ function Navbar() {
             <input
               type="text"
               name="searchText"
-              placeholder="search augeos"
+              placeholder="search"
               onClick={handleOpen}
               value={searchItem}
               onChange={(event) => setSearchItem(event.target.value)}

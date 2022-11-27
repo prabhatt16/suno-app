@@ -5,8 +5,9 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { auth, provider } from "../firebase";
 import { useHistory } from "react-router";
 import signUpImg from "../assets/78341.png";
-import logo from "../assets/logo.png";
+import logo from "../assets/sunologo.png";
 import googleImg from "../assets/googleImage.png";
+import LogoText from "./LogoText";
 
 function SignInPage() {
   const [user] = useAuthState(auth);
@@ -29,15 +30,19 @@ function SignInPage() {
       <div className="signInPage">
         <div className="leftContainer">
           <img className="logoImage" src={logo} alt="logo" />
-          <h3>Be Smart!</h3>
-          <h4>Play augeos on-the-go</h4>
+          {/* <div className="" style={{textAlign:'center',height:55}}>
+            <LogoText fontsize={33}/>
+          </div> */}
+          <h3>Be Smart,</h3>
+          <h4>SUNO MAN KI</h4>
           <img src={signUpImg} alt="img1" className="signUpImage" />
         </div>
         <div className="rightContainer" style={{ backgroundColor: "white" }}>
           <h1>Hey there!</h1>
-          <h2>Welcome to Augeo</h2>
           <br />
-          <p>Let's mix audio + geo</p>
+          <br />
+          <h2>Welcome to SUNO</h2>
+          <p>Let's be heard!</p>
           <div className="loginBtn" onClick={Login}>
             <h3>Continue with Google</h3>
             <img src={googleImg} alt="googleImage" />

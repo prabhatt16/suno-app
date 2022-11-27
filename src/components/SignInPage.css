@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 .signInPage {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
+  /* flex: 1; */
+  /* height: 100Vh; */
   align-items: center;
   width: 100%;
 }
+
 /* body {
   background-color: #e5e5e5;
 } */
@@ -20,7 +24,7 @@
   padding-bottom: 20px;
 }
 
-.leftContainer > h3 {
+.leftContainer>h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
@@ -30,7 +34,7 @@
   color: #ffffff;
 }
 
-.leftContainer > h4 {
+.leftContainer>h4 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -39,13 +43,14 @@
   text-align: center;
   color: #ffffff;
 }
+
 .logoImage {
   display: block;
   margin: 0 auto;
-  max-width: 135px;
-  max-height: 87px;
+  max-width: 150px;
+  /* max-height: 100px; */
   /* width: 100%; */
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   margin-top: 10%;
 }
 
@@ -65,7 +70,7 @@
   border-radius: 40px;
 }
 
-.rightContainer > h1 {
+.rightContainer>h1 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -75,7 +80,8 @@
   color: #7905f2;
   margin-top: 18%;
 }
-.rightContainer > h2 {
+
+.rightContainer>h2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -84,7 +90,8 @@
   text-align: center;
   color: black;
 }
-.rightContainer > p {
+
+.rightContainer>p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -93,20 +100,23 @@
   text-align: center;
   color: black;
 }
+
 .loginBtn {
   /* max-width: 380px; */
   height: 55px;
   width: 80%;
   background: #7905f2;
+  cursor: pointer;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-bottom: 15%;
 }
-.loginBtn > h3 {
+
+.loginBtn>h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: bold;
@@ -116,7 +126,8 @@
   color: #ffffff;
   margin-right: 12px;
 }
-.loginBtn > img {
+
+.loginBtn>img {
   width: 32.73px;
   height: 30px;
   background-color: #ffffff;
@@ -133,13 +144,14 @@
     margin-bottom: 0;
   }
 
-  .leftContainer > h3 {
+  .leftContainer>h3 {
     font-size: 28px;
   }
 
-  .leftContainer > h4 {
+  .leftContainer>h4 {
     font-size: 18px;
   }
+
   .logoImage {
     display: block;
     margin: 0 auto;
@@ -164,16 +176,19 @@
     margin-top: -20%;
   }
 
-  .rightContainer > h1 {
+  .rightContainer>h1 {
     font-size: 30px;
     margin-top: 10%;
   }
-  .rightContainer > h2 {
+
+  .rightContainer>h2 {
     font-size: 20px;
   }
-  .rightContainer > p {
+
+  .rightContainer>p {
     font-size: 16px;
   }
+
   .loginBtn {
     max-width: 300px;
     height: 50px;
@@ -186,7 +201,8 @@
     margin-top: 10%;
     margin-bottom: 10%;
   }
-  .loginBtn > h3 {
+
+  .loginBtn>h3 {
     font-family: "Poppins";
     font-style: normal;
     font-weight: bold;

@@ -34,7 +34,7 @@ function SaveItemPage() {
           <br />
           <div className="pageInfo">
             <h2>Saved</h2>
-            <p>Augeos you have saved</p>
+            <p>SUNOs you have saved</p>
           </div>
           <div className="categoryAudioCards" style={{ padding: "20px" }}>
             {augeos &&

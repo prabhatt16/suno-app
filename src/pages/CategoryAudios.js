@@ -331,9 +331,9 @@ function CategoryAudios() {
                 onClick={handleCloseRating}
               />
               <img src={ratingImg} alt="ratingImage" className="ratingImg" />
-              <h1 className="ratingHeading">Enjoyed this Augeo? </h1>
+              <h1 className="ratingHeading">Enjoyed this SUNO audio? </h1>
               <h3 className="ratingPara">
-                Tell us how much you’ll rate this augeo
+                Tell us how much you’ll rate this SUNO audio
               </h3>
               <div className="ratingItem">
                 <Rating
